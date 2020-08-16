@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "5f2c15c57319b93adc0e3206"
+  },
+  "bookname": "A",
+  "authorname": "B",
+  "depname": "Computer Engineering",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2c5f105f4b4e0310cc5bfa"
+  },
+  "bookname": "Mini",
+  "authorname": "Mini",
+  "depname": "Computer Engineering",
+  "__v": 0
+}]
