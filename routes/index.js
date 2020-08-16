@@ -125,7 +125,7 @@ router.post("/edit/:id", async function (req, res, next) {
   editted_book.bookname = req.body.bookname;
   editted_book.authorname = req.body.authorname;
   editted_book.depname = req.body.depname;
-  book_newurl = req.body.bookurl;  
+  book_newurl = req.body.book;  
   await editted_book.save();
   // res.send("done:)");
   res.redirect("/available");
