@@ -5,6 +5,7 @@ var UserSchema = mongoose.Schema({
   name: { 
     type: String, 
     required: [true, 'User Name is Required'],
+    stripHtmlTags: true,    
     trim: true,    
     minlength: [3,'Name should contain at least 3 characters']
 
@@ -13,6 +14,7 @@ var UserSchema = mongoose.Schema({
     type: String, 
     required: [true, 'Email is Required'],
     lowercase: true,
+    stripHtmlTags: true,    
     trim: true,  
   },
   password:{ 
